@@ -1,0 +1,27 @@
+.gfycat-user-info {
+  .header { 
+    height: 36px;
+    background: url(/img/gfycat_logo.svg) no-repeat left center;
+    background-size: auto 24px;
+    margin-bottom: $size-small;
+    margin-right: -15px;
+  }
+
+  .user {
+    height: 36px;
+    line-height: 36px;
+    vertical-align: middle;
+  }
+
+  .avatar {
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    border-radius: 100%;
+    overflow: hidden;
+    background: $gray url(https://assets.gfycat.com/web/38571720/images/desktop/gfycat_logo.svg) no-repeat center center;
+    background-size: cover;
+    margin-right: $size-small;
+    vertical-align: middle;
+  }
+}

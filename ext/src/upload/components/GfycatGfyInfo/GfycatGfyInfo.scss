@@ -1,0 +1,17 @@
+.gfycat-gfy-info {
+  .btn {
+    margin-top: $size-small;
+  }
+
+  .panel {
+    margin-top: $size-small;
+    background: #18BC9C;
+    color: #FFF !important;
+    overflow: hidden;
+
+    p {
+      text-overflow: ellipsis;
+      overflow: hidden;
+    }
+  }
+}

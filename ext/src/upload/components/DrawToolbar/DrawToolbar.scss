@@ -1,0 +1,43 @@
+.draw-toolbar {
+  .dot {
+    position: relative;
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+
+    &::before {
+      content: "";
+      display: block;
+      background: #FFF;
+      border-radius: 100%;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    &._10::before { width: 10px; height: 10px; }
+    &._15::before { width: 15px; height: 15px; }
+    &._20::before { width: 20px; height: 20px; }
+  }
+
+  .color {
+    position: relative;
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+
+    i {
+      display: block;
+      background: #FFF;
+      border-radius: 2px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 16px;
+      height: 16px;
+    }
+  }
+}
+

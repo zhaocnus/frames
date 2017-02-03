@@ -1,0 +1,24 @@
+# general
+.idea
+.DS_Store
+*~
+.sass-cache
+
+# package control
+node_modules
+bower_components
+
+# logs
+npm-debug.log
+
+# build
+ext/build
+ext/dist
+
+# test
+
+# credentials
+ext/config.json
+
+# design
+design/exports

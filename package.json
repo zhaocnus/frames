@@ -1,0 +1,46 @@
+{
+  "name": "gfycat-chrome-extension",
+  "version": "0.1.0",
+  "description": "",
+  "scripts": {
+    "start": "webpack -d --watch --config webpack.dev.js",
+    "prod": "webpack -p --config webpack.prod.js"
+  },
+  "author": "Xiaoyang Zhao",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.14.0",
+    "babel-core": "^6.14.0",
+    "babel-eslint": "^6.1.2",
+    "babel-loader": "^6.2.5",
+    "babel-plugin-transform-object-rest-spread": "^6.16.0",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-react": "^6.11.1",
+    "copy-webpack-plugin": "^1.1.1",
+    "css-loader": "^0.23.1",
+    "eslint": "^2.13.1",
+    "eslint-loader": "^1.5.0",
+    "eslint-plugin-react": "^6.9.0",
+    "file-loader": "^0.8.5",
+    "json-loader": "^0.5.4",
+    "node-sass": "^3.8.0",
+    "raw-loader": "^0.5.1",
+    "sass-loader": "^3.2.3",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.13.2"
+  },
+  "dependencies": {
+    "async": "^2.1.4",
+    "bluebird": "^3.4.7",
+    "bootstrap-sass": "^3.3.7",
+    "bootswatch": "^3.3.7",
+    "rc-slider": "^5.4.3",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-redux": "^5.0.2",
+    "redux": "^3.6.0",
+    "redux-thunk": "^2.1.0",
+    "superagent": "^3.3.2"
+  }
+}

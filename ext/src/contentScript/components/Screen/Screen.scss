@@ -1,0 +1,11 @@
+.screen {
+  position: absolute;
+  background: rgba(0,0,0,0.5);
+  width: auto;
+  height: auto;
+
+  &.top { top: 0; width: 100%; }
+  &.bottom { bottom: 0; width: 100%; }
+  &.left { left: 0; }
+  &.right { right: 0; }
+}

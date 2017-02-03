@@ -1,0 +1,10 @@
+.crop-area {
+  position: absolute;
+  width: auto;
+  height: auto;
+
+  .controls-wrapper {
+    position: absolute; 
+    z-index: 9999;
+  }
+}

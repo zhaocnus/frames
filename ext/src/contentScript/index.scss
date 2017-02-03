@@ -1,0 +1,10 @@
+$controls-height: 40px;
+
+#xyz-gif-create-app-root {
+  * { box-sizing: border-box; }
+
+  @import "./components/AppWrapper/AppWrapper";
+  @import "./components/Screen/Screen";
+  @import "./components/CropArea/CropArea";
+  @import "./components/Controls/Controls";
+}

@@ -1,0 +1,21 @@
+// required for flexbox sticky footer
+// https://css-tricks.com/couple-takes-sticky-footer/
+html, body {
+  height: 100%;
+}
+
+.main-app {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-app > .main-app-inner-wrapper {
+  flex: 1;
+  padding-top: $nav-height + $size-medium;
+}
+

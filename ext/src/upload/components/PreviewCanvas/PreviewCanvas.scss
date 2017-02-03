@@ -1,0 +1,27 @@
+.preview-canvas {
+  background: $gray-light;
+  padding: 20px;
+
+  .canvas-wrapper {
+    position: relative;
+    box-shadow: 0 0 5px rgba(#333, 0.6);
+  }
+
+  .image-canvas {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .draw-canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    &.draw {
+      cursor: crosshair;
+    }
+  }
+}

@@ -1,0 +1,34 @@
+// bootstrap
+$icon-font-path: "~bootstrap-sass/assets/fonts/bootstrap/";
+@import "~bootswatch/Flatly/variables";
+@import "~bootstrap-sass/assets/stylesheets/bootstrap";
+@import "~bootswatch/Flatly/bootswatch";
+@import "./bootswatch_override";
+
+// rc-slider
+@import "~rc-slider/assets/index.css";
+
+// shared scss
+@import "./variables";
+@import "./base";
+
+// common component
+
+// components
+@import "../components/DrawToolbar/DrawToolbar";
+@import "../components/FilterToolbar/FilterToolbar";
+
+@import "../components/GfycatWrapper/GfycatWrapper";
+@import "../components/GfycatUploadForm/GfycatUploadForm";
+@import "../components/GfycatGfyInfo/GfycatGfyInfo";
+@import "../components/GfycatUserInfo/GfycatUserInfo";
+
+@import "../components/MainApp/MainApp";
+@import "../components/MainNav/MainNav";
+@import "../components/MainFooter/MainFooter";
+
+@import "../components/PreviewInfo/PreviewInfo.scss";
+@import "../components/PreviewCanvasWrapper/PreviewCanvasWrapper";
+@import "../components/PreviewCanvas/PreviewCanvas";
+@import "../components/PreviewCanvasToolbar/PreviewCanvasToolbar";
+@import "../components/PreviewControls/PreviewControls";

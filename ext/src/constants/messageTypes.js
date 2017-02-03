@@ -1,0 +1,5 @@
+export const SHOW_CAPTURE_UI = 'SHOW_CAPTURE_UI';
+export const REMOVE_CAPTURE_UI = 'REMOVE_CAPTURE_UI';
+
+export const START_CAPTURE = 'START_CAPTURE';
+export const STOP_CAPTURE = 'STOP_CAPTURE';

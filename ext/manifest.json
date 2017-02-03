@@ -1,0 +1,45 @@
+{
+  "name": "Frames",
+  "version": "0.0.0",
+  "manifest_version": 2,
+  "description": "Create animated gif from screenshot",
+  "homepage_url": "https://github.com/zhaocnus",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "default_locale": "en",
+  "background": {
+    "scripts": ["build/background.bundle.js"],
+    "persistent": true
+  },
+  "browser_action": {
+    "default_icon": {
+      "19": "icons/icon19-default.png",
+      "38": "icons/icon38-default.png"
+    },
+    "default_title": "Frames",
+    "default_popup": ""
+  },
+  "permissions": [
+    "identity",
+    "storage",
+    "unlimitedStorage",
+    "<all_urls>"
+  ],
+  "omnibox": {
+    "keyword": "extensionizr"
+  },
+  "content_scripts": [
+    {
+      "js": ["build/contentScript.bundle.js"],
+      "matches": ["<all_urls>"],
+      "run_at": "document_end"
+    }
+  ],
+  "web_accessible_resources": [
+    "img/*",
+    "build/assets/*"
+  ]
+}

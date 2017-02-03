@@ -1,0 +1,5 @@
+// remove blue outline in chrome
+*:focus { outline: 0 !important; }
+
+// hidden canvas for exporting cropped base64 sequence
+.hidden-canvas { display: none !important; }
